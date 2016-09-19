@@ -8,20 +8,75 @@
 
 /* Begin PBXBuildFile section */
 		AA1AECFC1D86D4EF00A81AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1AECFB1D86D4EF00A81AA8 /* AppDelegate.swift */; };
-		AA1AECFE1D86D4EF00A81AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1AECFD1D86D4EF00A81AA8 /* ViewController.swift */; };
+		AA1AECFE1D86D4EF00A81AA8 /* VKPPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1AECFD1D86D4EF00A81AA8 /* VKPPhotosViewController.swift */; };
 		AA1AED011D86D4EF00A81AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1AECFF1D86D4EF00A81AA8 /* Main.storyboard */; };
 		AA1AED031D86D4EF00A81AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1AED021D86D4EF00A81AA8 /* Assets.xcassets */; };
 		AA1AED061D86D4EF00A81AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1AED041D86D4EF00A81AA8 /* LaunchScreen.storyboard */; };
+		AA29D4931D8C9112003471F1 /* VKPPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29D4921D8C9112003471F1 /* VKPPhotoViewController.swift */; };
+		AA29D4951D8C917E003471F1 /* VKPPhotoScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29D4941D8C917E003471F1 /* VKPPhotoScrollViewController.swift */; };
+		AA29D4971D8C929F003471F1 /* VKPPhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29D4961D8C929F003471F1 /* VKPPhotoDetailViewController.swift */; };
+		AA45E2C91D86D94400D46644 /* VKSdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA45E2C81D86D94400D46644 /* VKSdkFramework.framework */; };
+		AA45E2CA1D86D94400D46644 /* VKSdkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA45E2C81D86D94400D46644 /* VKSdkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA45E2CD1D86DA6200D46644 /* VKPAPIWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45E2CC1D86DA6200D46644 /* VKPAPIWorker.swift */; };
+		AA4DCB281D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DCB261D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.swift */; };
+		AA4DCB291D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4DCB271D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.xib */; };
+		AA4DCB2B1D872EDF00FB3FA9 /* VKPReusableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DCB2A1D872EDF00FB3FA9 /* VKPReusableCollectionViewCell.swift */; };
+		AA4DCB2E1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DCB2C1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.swift */; };
+		AA4DCB2F1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4DCB2D1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.xib */; };
+		AAB4C1921D8B3C330067F5FE /* Array+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4C1911D8B3C330067F5FE /* Array+Helpers.swift */; };
+		AAB4C1941D8B42780067F5FE /* VKPURLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4C1931D8B42780067F5FE /* VKPURLImage.swift */; };
+		AAB4C1961D8B45350067F5FE /* Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB4C1951D8B45350067F5FE /* Crypto.framework */; };
+		AAB4C1971D8B45350067F5FE /* Crypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAB4C1951D8B45350067F5FE /* Crypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAB4C1991D8B48FC0067F5FE /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB4C1981D8B48FC0067F5FE /* CommonCrypto.framework */; };
+		AAB4C19A1D8B48FC0067F5FE /* CommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAB4C1981D8B48FC0067F5FE /* CommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAED91E11D8713B30005FFDE /* VKPLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED91DF1D8713B30005FFDE /* VKPLoadingView.swift */; };
+		AAED91E21D8713B30005FFDE /* VKPLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAED91E01D8713B30005FFDE /* VKPLoadingView.xib */; };
+		AAED91E41D8718310005FFDE /* NSError+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED91E31D8718310005FFDE /* NSError+Helpers.swift */; };
+		AAFCFF361D8B384C00429981 /* VKPImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCFF351D8B384C00429981 /* VKPImageLoader.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA45E2CB1D86D94400D46644 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA45E2CA1D86D94400D46644 /* VKSdkFramework.framework in Embed Frameworks */,
+				AAB4C19A1D8B48FC0067F5FE /* CommonCrypto.framework in Embed Frameworks */,
+				AAB4C1971D8B45350067F5FE /* Crypto.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA1AECF81D86D4EF00A81AA8 /* VKPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1AECFB1D86D4EF00A81AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA1AECFD1D86D4EF00A81AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA1AECFD1D86D4EF00A81AA8 /* VKPPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKPPhotosViewController.swift; sourceTree = "<group>"; };
 		AA1AED001D86D4EF00A81AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA1AED021D86D4EF00A81AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1AED051D86D4EF00A81AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1AED071D86D4EF00A81AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA29D4921D8C9112003471F1 /* VKPPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPPhotoViewController.swift; sourceTree = "<group>"; };
+		AA29D4941D8C917E003471F1 /* VKPPhotoScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPPhotoScrollViewController.swift; sourceTree = "<group>"; };
+		AA29D4961D8C929F003471F1 /* VKPPhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPPhotoDetailViewController.swift; sourceTree = "<group>"; };
+		AA45E2C81D86D94400D46644 /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdkFramework.framework; path = Carthage/Build/iOS/VKSdkFramework.framework; sourceTree = "<group>"; };
+		AA45E2CC1D86DA6200D46644 /* VKPAPIWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPAPIWorker.swift; sourceTree = "<group>"; };
+		AA4DCB261D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA4DCB271D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKPPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		AA4DCB2A1D872EDF00FB3FA9 /* VKPReusableCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPReusableCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA4DCB2C1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPLoadingCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA4DCB2D1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKPLoadingCollectionViewCell.xib; sourceTree = "<group>"; };
+		AAB4C1911D8B3C330067F5FE /* Array+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Helpers.swift"; sourceTree = "<group>"; };
+		AAB4C1931D8B42780067F5FE /* VKPURLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPURLImage.swift; sourceTree = "<group>"; };
+		AAB4C1951D8B45350067F5FE /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crypto.framework; path = Carthage/Build/iOS/Crypto.framework; sourceTree = "<group>"; };
+		AAB4C1981D8B48FC0067F5FE /* CommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonCrypto.framework; path = Carthage/Build/iOS/CommonCrypto.framework; sourceTree = "<group>"; };
+		AAED91DF1D8713B30005FFDE /* VKPLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPLoadingView.swift; sourceTree = "<group>"; };
+		AAED91E01D8713B30005FFDE /* VKPLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKPLoadingView.xib; sourceTree = "<group>"; };
+		AAED91E31D8718310005FFDE /* NSError+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Helpers.swift"; sourceTree = "<group>"; };
+		AAFCFF351D8B384C00429981 /* VKPImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKPImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA45E2C91D86D94400D46644 /* VKSdkFramework.framework in Frameworks */,
+				AAB4C1991D8B48FC0067F5FE /* CommonCrypto.framework in Frameworks */,
+				AAB4C1961D8B45350067F5FE /* Crypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				AA1AECFA1D86D4EF00A81AA8 /* VKPhotos */,
+				AA27B7B21D8DC0CD00D9190B /* Frameworks */,
 				AA1AECF91D86D4EF00A81AA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +113,103 @@
 		AA1AECFA1D86D4EF00A81AA8 /* VKPhotos */ = {
 			isa = PBXGroup;
 			children = (
-				AA1AECFB1D86D4EF00A81AA8 /* AppDelegate.swift */,
-				AA1AECFD1D86D4EF00A81AA8 /* ViewController.swift */,
 				AA1AECFF1D86D4EF00A81AA8 /* Main.storyboard */,
-				AA1AED021D86D4EF00A81AA8 /* Assets.xcassets */,
-				AA1AED041D86D4EF00A81AA8 /* LaunchScreen.storyboard */,
-				AA1AED071D86D4EF00A81AA8 /* Info.plist */,
+				AA27B7AF1D8DC08100D9190B /* Model */,
+				AA27B7B01D8DC09800D9190B /* View */,
+				AA27B7B11D8DC0A300D9190B /* Controllers */,
+				AA27B7AD1D8DBFF100D9190B /* Supporting Files */,
+				AA27B7AE1D8DC06900D9190B /* Resources */,
 			);
 			path = VKPhotos;
+			sourceTree = "<group>";
+		};
+		AA27B7AD1D8DBFF100D9190B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1AECFB1D86D4EF00A81AA8 /* AppDelegate.swift */,
+				AA1AED071D86D4EF00A81AA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA27B7AE1D8DC06900D9190B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA1AED021D86D4EF00A81AA8 /* Assets.xcassets */,
+				AA1AED041D86D4EF00A81AA8 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA27B7AF1D8DC08100D9190B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA45E2CC1D86DA6200D46644 /* VKPAPIWorker.swift */,
+				AAB4C1931D8B42780067F5FE /* VKPURLImage.swift */,
+				AAFCFF351D8B384C00429981 /* VKPImageLoader.swift */,
+				AAED91E31D8718310005FFDE /* NSError+Helpers.swift */,
+				AAB4C1911D8B3C330067F5FE /* Array+Helpers.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AA27B7B01D8DC09800D9190B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA4DCB2A1D872EDF00FB3FA9 /* VKPReusableCollectionViewCell.swift */,
+				AA27B7B31D8DC10F00D9190B /* Loading View */,
+				AA27B7B41D8DC12600D9190B /* Photo Cell */,
+				AA27B7B51D8DC12D00D9190B /* Loading Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AA27B7B11D8DC0A300D9190B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA1AECFD1D86D4EF00A81AA8 /* VKPPhotosViewController.swift */,
+				AA29D4961D8C929F003471F1 /* VKPPhotoDetailViewController.swift */,
+				AA29D4941D8C917E003471F1 /* VKPPhotoScrollViewController.swift */,
+				AA29D4921D8C9112003471F1 /* VKPPhotoViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AA27B7B21D8DC0CD00D9190B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4C1981D8B48FC0067F5FE /* CommonCrypto.framework */,
+				AAB4C1951D8B45350067F5FE /* Crypto.framework */,
+				AA45E2C81D86D94400D46644 /* VKSdkFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA27B7B31D8DC10F00D9190B /* Loading View */ = {
+			isa = PBXGroup;
+			children = (
+				AAED91DF1D8713B30005FFDE /* VKPLoadingView.swift */,
+				AAED91E01D8713B30005FFDE /* VKPLoadingView.xib */,
+			);
+			name = "Loading View";
+			sourceTree = "<group>";
+		};
+		AA27B7B41D8DC12600D9190B /* Photo Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AA4DCB261D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.swift */,
+				AA4DCB271D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.xib */,
+			);
+			name = "Photo Cell";
+			sourceTree = "<group>";
+		};
+		AA27B7B51D8DC12D00D9190B /* Loading Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AA4DCB2C1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.swift */,
+				AA4DCB2D1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.xib */,
+			);
+			name = "Loading Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +222,7 @@
 				AA1AECF41D86D4EF00A81AA8 /* Sources */,
 				AA1AECF51D86D4EF00A81AA8 /* Frameworks */,
 				AA1AECF61D86D4EF00A81AA8 /* Resources */,
+				AA45E2CB1D86D94400D46644 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,6 +239,7 @@
 		AA1AECF01D86D4EF00A81AA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VKP;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Azat Almeev";
@@ -124,7 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4DCB291D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.xib in Resources */,
 				AA1AED061D86D4EF00A81AA8 /* LaunchScreen.storyboard in Resources */,
+				AA4DCB2F1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.xib in Resources */,
+				AAED91E21D8713B30005FFDE /* VKPLoadingView.xib in Resources */,
 				AA1AED031D86D4EF00A81AA8 /* Assets.xcassets in Resources */,
 				AA1AED011D86D4EF00A81AA8 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +290,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA1AECFE1D86D4EF00A81AA8 /* ViewController.swift in Sources */,
+				AAFCFF361D8B384C00429981 /* VKPImageLoader.swift in Sources */,
+				AA29D4951D8C917E003471F1 /* VKPPhotoScrollViewController.swift in Sources */,
+				AAED91E41D8718310005FFDE /* NSError+Helpers.swift in Sources */,
+				AA29D4931D8C9112003471F1 /* VKPPhotoViewController.swift in Sources */,
+				AA29D4971D8C929F003471F1 /* VKPPhotoDetailViewController.swift in Sources */,
+				AA45E2CD1D86DA6200D46644 /* VKPAPIWorker.swift in Sources */,
+				AAED91E11D8713B30005FFDE /* VKPLoadingView.swift in Sources */,
+				AA1AECFE1D86D4EF00A81AA8 /* VKPPhotosViewController.swift in Sources */,
+				AAB4C1921D8B3C330067F5FE /* Array+Helpers.swift in Sources */,
+				AA4DCB281D872ECE00FB3FA9 /* VKPPhotoCollectionViewCell.swift in Sources */,
+				AA4DCB2B1D872EDF00FB3FA9 /* VKPReusableCollectionViewCell.swift in Sources */,
 				AA1AECFC1D86D4EF00A81AA8 /* AppDelegate.swift in Sources */,
+				AAB4C1941D8B42780067F5FE /* VKPURLImage.swift in Sources */,
+				AA4DCB2E1D87324C00FB3FA9 /* VKPLoadingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +427,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 56DQMCNC2P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = VKPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.azatalmeev.VKPhotos;
@@ -275,6 +444,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 56DQMCNC2P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = VKPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.azatalmeev.VKPhotos;
@@ -302,6 +475,7 @@
 				AA1AED0C1D86D4EF00A81AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
